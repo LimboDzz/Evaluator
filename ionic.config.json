@@ -1,0 +1,7 @@
+{
+  "name": "Evaluator",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
