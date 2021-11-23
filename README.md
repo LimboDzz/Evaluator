@@ -20,7 +20,7 @@
 
 ​		其中样式部分选择Ionic而没有选择其他UI库是因为Capacitor基本上与Ionic捆绑使用（同一家公司的产品+官方推荐），而我本此项目最终结果呈现需要Android APK，像拍摄分享等安卓手机的原生功能如果不使用Android SDK编写的话，需要Capacitor这样的手机平台runtime，他把安卓平台特定的功能再次打包封装成WEB开发者可以通过Javascript调用的插件。
 
-![image-20211123184650990](C:\Users\79266\AppData\Roaming\Typora\typora-user-images\image-20211123184650990.png)
+![image-20211123184650990](image-20211123184650990.png)
 
 ### Model
 
@@ -30,7 +30,7 @@
 
 ​		同样使用了Vue框架的实现，但把各个功能单独提取到js文件做了一个微小的模块化处理。其中：
 
-![image-20211123191647779](C:\Users\79266\AppData\Roaming\Typora\typora-user-images\image-20211123191647779.png)
+![image-20211123191647779](image-20211123191647779.png)
 
 - 拍照
   - 直接调用@capacitor/camera，可以在options中指定拍照参数，拍摄结束把照片信息返回并插入在store中的imgs数组。
