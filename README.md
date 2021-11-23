@@ -2,7 +2,7 @@
 
 ## Description
 
-​		拍摄照片对图中烟雾浓度进行测定的APP。
+​		拍摄照片对图中烟雾浓度进行测定的APP。[详情见](https://github.com/LimboDzz/Evaluator/blob/master/%E8%AF%BE%E8%AE%BE%E8%A6%81%E6%B1%82-%E9%BB%91%E5%BA%A6.docx)
 
 ## Skill Stack
 - Vue/Vuex/VueRouter
