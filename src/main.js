@@ -22,11 +22,18 @@ import '@ionic/vue/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import { defineCustomElements } from '@ionic/pwa-elements/loader';
 
+import Page from "@/components/Page.vue";
+
+import store from "./store";
 const app = createApp(App)
+  .component("Page",Page)
   .use(IonicVue)
-  .use(router);
-  
+  .use(router)
+  .use(store)
+
 router.isReady().then(() => {
   app.mount('#app');
+  defineCustomElements(window);
 });
